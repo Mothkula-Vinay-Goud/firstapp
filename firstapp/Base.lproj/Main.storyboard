@@ -275,7 +275,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUMMARY PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGM-LD-xLN">
-                                <rect key="frame" x="51" y="279" width="339" height="112"/>
+                                <rect key="frame" x="81.333333333333343" y="367" width="277.66666666666663" height="44.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -284,10 +284,8 @@
                         <viewLayoutGuide key="safeArea" id="3sJ-SD-KXU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="3sJ-SD-KXU" firstAttribute="trailing" secondItem="NGM-LD-xLN" secondAttribute="trailing" constant="50" id="XUe-5R-XBF"/>
-                            <constraint firstAttribute="bottom" secondItem="NGM-LD-xLN" secondAttribute="bottom" constant="387" id="aRK-MU-pzQ"/>
-                            <constraint firstItem="NGM-LD-xLN" firstAttribute="top" secondItem="3sJ-SD-KXU" secondAttribute="top" constant="279" id="jHY-gc-vFw"/>
-                            <constraint firstItem="NGM-LD-xLN" firstAttribute="leading" secondItem="3sJ-SD-KXU" secondAttribute="leading" constant="51" id="lWa-aQ-hyi"/>
+                            <constraint firstItem="NGM-LD-xLN" firstAttribute="centerX" secondItem="qF8-Mb-bYi" secondAttribute="centerX" id="OJU-pH-LaD"/>
+                            <constraint firstItem="NGM-LD-xLN" firstAttribute="centerY" secondItem="qF8-Mb-bYi" secondAttribute="centerY" id="iJK-9u-EFh"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Summary" image="circle.dotted" catalog="system" id="jxj-XS-Pcn"/>
@@ -305,7 +303,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FITNESS PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFj-BE-8ax">
-                                <rect key="frame" x="51" y="279" width="339" height="112"/>
+                                <rect key="frame" x="103" y="367.66666666666669" width="234" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -314,10 +312,8 @@
                         <viewLayoutGuide key="safeArea" id="xE7-eG-u0a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xE7-eG-u0a" firstAttribute="bottom" secondItem="OFj-BE-8ax" secondAttribute="bottom" constant="338" id="2Zu-Ih-Ko1"/>
-                            <constraint firstItem="OFj-BE-8ax" firstAttribute="leading" secondItem="xE7-eG-u0a" secondAttribute="leading" constant="51" id="Jei-au-lNk"/>
-                            <constraint firstItem="OFj-BE-8ax" firstAttribute="top" secondItem="xE7-eG-u0a" secondAttribute="top" constant="279" id="TTw-Mx-x1W"/>
-                            <constraint firstItem="xE7-eG-u0a" firstAttribute="trailing" secondItem="OFj-BE-8ax" secondAttribute="trailing" constant="50" id="l41-MN-c3B"/>
+                            <constraint firstItem="OFj-BE-8ax" firstAttribute="centerY" secondItem="pZ3-ad-i6c" secondAttribute="centerY" id="AH1-R1-mjI"/>
+                            <constraint firstItem="OFj-BE-8ax" firstAttribute="centerX" secondItem="pZ3-ad-i6c" secondAttribute="centerX" id="TEo-qL-hcI"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fitness+" image="figure.walk" catalog="system" id="TDG-gp-eII"/>
@@ -335,10 +331,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WORKOUT PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-Xi-Bj8">
-                                <rect key="frame" x="51" y="279" width="339" height="112"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="gop-uM-tE5"/>
-                                </constraints>
+                                <rect key="frame" x="84.333333333333343" y="367.66666666666669" width="271.33333333333326" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -347,10 +340,8 @@
                         <viewLayoutGuide key="safeArea" id="Kxa-ac-dxq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hRT-Xi-Bj8" firstAttribute="leading" secondItem="Kxa-ac-dxq" secondAttribute="leading" constant="51" id="ITZ-zO-mlb"/>
-                            <constraint firstItem="hRT-Xi-Bj8" firstAttribute="top" secondItem="Kxa-ac-dxq" secondAttribute="top" constant="279" id="WvC-FN-hXw"/>
-                            <constraint firstItem="Kxa-ac-dxq" firstAttribute="trailing" secondItem="hRT-Xi-Bj8" secondAttribute="trailing" constant="50" id="sfb-ir-REs"/>
-                            <constraint firstItem="Kxa-ac-dxq" firstAttribute="bottom" secondItem="hRT-Xi-Bj8" secondAttribute="bottom" constant="338" id="xin-Uo-5PU"/>
+                            <constraint firstItem="hRT-Xi-Bj8" firstAttribute="centerX" secondItem="9En-fX-4AR" secondAttribute="centerX" id="XhH-5P-2pV"/>
+                            <constraint firstItem="hRT-Xi-Bj8" firstAttribute="centerY" secondItem="9En-fX-4AR" secondAttribute="centerY" id="b9F-iy-spv"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Workout" image="figure.run.circle.fill" catalog="system" id="Vmb-Zp-r2U"/>
@@ -454,10 +445,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARING PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-Bd-zFb">
-                                <rect key="frame" x="50" y="279" width="339" height="112"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="1k8-wP-IXI"/>
-                                </constraints>
+                                <rect key="frame" x="96" y="367.66666666666669" width="248" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -466,10 +454,8 @@
                         <viewLayoutGuide key="safeArea" id="WTz-1B-bwr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9ct-Bd-zFb" firstAttribute="top" secondItem="WTz-1B-bwr" secondAttribute="top" constant="279" id="UEp-eI-f5V"/>
-                            <constraint firstItem="9ct-Bd-zFb" firstAttribute="leading" secondItem="WTz-1B-bwr" secondAttribute="leading" constant="50" id="bm7-sS-jXu"/>
-                            <constraint firstItem="WTz-1B-bwr" firstAttribute="trailing" secondItem="9ct-Bd-zFb" secondAttribute="trailing" constant="51" id="iWT-g5-uda"/>
-                            <constraint firstItem="WTz-1B-bwr" firstAttribute="bottom" secondItem="9ct-Bd-zFb" secondAttribute="bottom" constant="338" id="pn7-VZ-2Ca"/>
+                            <constraint firstItem="9ct-Bd-zFb" firstAttribute="centerX" secondItem="5W6-9f-qnc" secondAttribute="centerX" id="2aO-GW-Ezc"/>
+                            <constraint firstItem="9ct-Bd-zFb" firstAttribute="centerY" secondItem="5W6-9f-qnc" secondAttribute="centerY" id="dFt-on-Nfq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sharing" image="person.2.fill" catalog="system" id="gVF-bx-Ice"/>
