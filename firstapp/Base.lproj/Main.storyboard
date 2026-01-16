@@ -13,16 +13,16 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="firstapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="894"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="37I-0y-vuF">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="37I-0y-vuF">
                                 <rect key="frame" x="15" y="20" width="409" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cz-ag-CLq">
-                                <rect key="frame" x="15" y="315.33333333333331" width="409" height="34.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cz-ag-CLq">
+                                <rect key="frame" x="15" y="315.33333333333337" width="409" height="34.333333333333314"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -34,7 +34,7 @@
                                     <segue destination="cIV-mv-vWp" kind="push" id="xTv-VH-Swe"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hhs-ld-MjJ">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hhs-ld-MjJ">
                                 <rect key="frame" x="15" y="110" width="409" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IIX-c9-EMF"/>
@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEN-hM-gcK">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEN-hM-gcK">
                                 <rect key="frame" x="15" y="399.66666666666663" width="409" height="34.333333333333314"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <state key="normal" title="Button"/>
@@ -51,7 +51,7 @@
                                     <segue destination="dKl-AG-7Rr" kind="push" id="NSd-wN-J1L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xm2-op-iVQ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xm2-op-iVQ">
                                 <rect key="frame" x="85" y="182" width="339" height="33.333333333333343"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <state key="normal" title="Button"/>
@@ -104,7 +104,7 @@
             <objects>
                 <viewController id="dKl-AG-7Rr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibj-2N-xjQ">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7MQ-m2-5xt">
@@ -126,7 +126,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90R-BC-Tlx">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90R-BC-Tlx">
                                 <rect key="frame" x="86" y="339" width="165" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -161,7 +161,7 @@
             <objects>
                 <viewController id="guf-5c-rKw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VIA-PF-RlI">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Forgot Password" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mBu-J3-pdU">
@@ -271,11 +271,11 @@
             <objects>
                 <viewController id="Jrw-tq-FX2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qF8-Mb-bYi">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUMMARY PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGM-LD-xLN">
-                                <rect key="frame" x="81.333333333333343" y="367" width="277.66666666666663" height="44.333333333333314"/>
+                                <rect key="frame" x="81.333333333333343" y="420" width="277.66666666666663" height="44.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -299,11 +299,11 @@
             <objects>
                 <viewController id="wFP-YD-Ejf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pZ3-ad-i6c">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FITNESS PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFj-BE-8ax">
-                                <rect key="frame" x="103" y="367.66666666666669" width="234" height="43"/>
+                                <rect key="frame" x="103" y="420.66666666666669" width="234" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -327,11 +327,11 @@
             <objects>
                 <viewController id="1q9-Mn-oTJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9En-fX-4AR">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WORKOUT PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-Xi-Bj8">
-                                <rect key="frame" x="84.333333333333343" y="367.66666666666669" width="271.33333333333326" height="43"/>
+                                <rect key="frame" x="84.333333333333343" y="420.66666666666669" width="271.33333333333326" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -377,7 +377,7 @@
             <objects>
                 <viewController id="JkW-dr-W69" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dcj-JS-cZ4">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="An email to reset the password has sucessfully sent" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6ru-TN-Eja">
@@ -441,11 +441,11 @@
             <objects>
                 <viewController id="rwG-hc-gAn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5W6-9f-qnc">
-                        <rect key="frame" x="0.0" y="0.0" width="440" height="778"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="884"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARING PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-Bd-zFb">
-                                <rect key="frame" x="96" y="367.66666666666669" width="248" height="43"/>
+                                <rect key="frame" x="96" y="420.66666666666669" width="248" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
@@ -466,7 +466,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EfG-os-vXv"/>
+        <segue reference="fM2-ig-CNG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="circle.dotted" catalog="system" width="128" height="123"/>
